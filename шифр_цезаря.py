@@ -143,7 +143,7 @@ def caesar():
                                         shift = input('Введите шаг сдвига от 1 до 33 ').strip()
                                         while True:
                                             if is_valid_(shift) and int(shift) < 33:
-                                                shift = int(shift)
+                                                shift = int(shift) % 32
                                                 break
                                             else:
                                                 print('А может быть все-таки введём целое число? ')
@@ -155,7 +155,7 @@ def caesar():
                                         shift = input('Введите шаг сдвига от 1 до 32 ').strip()
                                         while True:
                                             if is_valid_(shift) and int(shift) < 32:
-                                                shift = int(shift)
+                                                shift = int(shift) % 32
                                                 break
                                             else:
                                                 print('А может быть все-таки введём целое число? ')
@@ -177,7 +177,7 @@ def caesar():
                                 while True:
                                     shift = input('Введите шаг сдвига от 1 до 26 ').strip()
                                     if is_valid_(shift) and int(shift) < 26:
-                                        shift = int(shift)
+                                        shift = int(shift) % 32
                                         break
                                     else:
                                         print('А может быть все-таки введём целое число? ')
@@ -207,7 +207,7 @@ def caesar():
                                         shift = input('Введите шаг сдвига от 1 до 33 ').strip()
                                         while True:
                                             if is_valid_(shift) and int(shift) < 33:
-                                                shift = int(shift)
+                                                shift = int(shift) % 32
                                                 break
                                             else:
                                                 print('А может быть все-таки введём целое число? ')
@@ -219,7 +219,7 @@ def caesar():
                                         shift = input('Введите шаг сдвига от 1 до 32 ').strip()
                                         while True:
                                             if is_valid_(shift) and int(shift) < 32:
-                                                shift = int(shift)
+                                                shift = int(shift) % 32
                                                 break
                                             else:
                                                 print('А может быть все-таки введём целое число? ')
@@ -242,7 +242,7 @@ def caesar():
                                 while True:
                                     shift = input('Введите шаг сдвига от 1 до 26 ').strip()
                                     if is_valid_(shift) and int(shift) < 26:
-                                        shift = int(shift)
+                                        shift = int(shift) % 32
                                         break
                                     else:
                                         print('А может быть все-таки введём целое число? ')
